@@ -1,0 +1,33 @@
+body {
+    background-color: #ffe2b0;
+}
+.logo1{
+    display: flex;
+  justify-content: center;
+}   
+ nav {
+    display: flex;
+    justify-content: center;
+ }
+
+ul { 
+    list-style-type: none; 
+}
+li {
+    padding: 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 100px;
+}
+a:hover {
+    color: red;
+}
+.logo-true {
+    height: 640px;
+    background-image: url(../img/01-Картинка-фона.jpg) center/cover;
+    background-position: center;
+    background-size: cover;
+}
